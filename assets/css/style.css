@@ -326,6 +326,10 @@ html {
   margin-bottom: 2rem;
 }
 
+.newsqc .boxqc .boxqc-list h2{
+  width: 450%;
+}
+
 .boxqc-list h2 div {
   font-size: 2rem;
   margin: 4rem 0 0rem 0;
@@ -1395,13 +1399,17 @@ a > h4 {
 }
 
 .newsqc {
-  width: 80%;
+  width: 20%;
   position: absolute;
-  right: -70rem;
-  top: 43rem;
-  height: 31rem;
+  left: 70%;
+  top: 55%;
+  height: 55%;
 }
-
+#imgqc{
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
 .qc-sale img {
   position: absolute;
   width: 31rem;
@@ -1445,3 +1453,11 @@ a > h4 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*hr*/
+hr{
+  clear: both;
+  width: 80%;
+  margin: 1% auto;
+}
